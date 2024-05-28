@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(33, 37, 107);
+}
+
+/* The external css link did not seem to work i double check to see if i made a mistake when linking the html and css files but it seems to be
+correct, instead of applying the css externally I implemented it internally but i am leaving my work here so that you may see it and potentially 
+explain any error i may have made to cause the issue.*/

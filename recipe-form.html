@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recipe-form.css">
+    <title>Recipe Form</title>
+</head>
+<style>
+    body{
+        background-color:darkslateblue
+    }
+    h1, h2{
+        text-align: center;
+        color:silver
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+        margin-top: 5px;
+        width: 50%    
+    }
+
+    label{
+        color: silver;
+    }
+
+    #sub-button{
+        width:20%
+        
+    }
+
+    #name{
+        width:50%
+    }
+
+    #recipe{
+        width:50%
+    }
+</style>
+<body>
+    
+    <main>
+        <header>
+            <h1>Recipe Submition Form</h1>
+        </header>
+        <h2>Submit Your Recipe Here</h2>
+        <form>
+            <label for="Name">Name</label>
+            <input placeholder="Enter your name" type="text" id="name">
+            <label for="Recipe-Name">Recipe</label>
+            <input placeholder="Name of your recipe" type="text" id="recipe">
+            <label>Ingredients</label>
+            <textarea placeholder="Add your ingredients Here" rows="8" cols="40"></textarea>
+            <label>Instructions</label>
+            <textarea placeholder="Add intructions for your recipe here" rows="10" cols="50"></textarea>
+            <input id="sub-button" for="submit" type="submit">
+
+        </form>
+        </main>
+</body>
+</html>
